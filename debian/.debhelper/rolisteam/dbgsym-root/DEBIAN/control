@@ -1,0 +1,13 @@
+Package: rolisteam-dbgsym
+Source: rolisteam
+Version: 1.8.2ubuntu2
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Renaud Guezennec <renaud@rolisteam.org>
+Installed-Size: 27262
+Depends: rolisteam (= 1.8.2ubuntu2)
+Section: debug
+Priority: extra
+Homepage: http://www.rolisteam.org
+Description: Debug symbols for rolisteam
+Build-Ids: c22fba14bb2891f7180ab0acfa8311751a7b438e
