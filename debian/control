@@ -1,7 +1,8 @@
 Source: rolisteam
 Section: games
-Priority: extra
+Priority: optional
 Maintainer: Renaud Guezennec <renaud@rolisteam.org>
+Uploaders: Alban Crommer <alban@albancrommer.com>
 Build-Depends: debhelper (>= 10),
                libqt5opengl5-dev,
                libqt5svg5-dev,
@@ -14,6 +15,8 @@ Build-Depends: debhelper (>= 10),
                zlib1g-dev
 Standards-Version: 3.8.0
 Homepage: http://www.rolisteam.org
+Vcs-Git: https://github.com/albancrommer/rolisteam-debian.git
+Vcs-Browser: https://github.com/albancrommer/rolisteam-debian.git
 
 Package: rolisteam
 Section: games
@@ -40,4 +43,3 @@ Architecture: all
 Depends: rolisteam (>= 1.0.0)
 Description: Documentation for rolisteam
  Technical Documentation of rolisteam
-
